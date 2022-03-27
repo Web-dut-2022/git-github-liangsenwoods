@@ -8,49 +8,50 @@
 
 ### 二、Git相关命令
 
-`git clone <url>` : 获取存储在服务器（如 GitHub）上的存储库并下载它
+​	`git clone <url>` : 获取存储在服务器（如 GitHub）上的存储库并下载它		
 
-`git add <filename(s)>` : 获取存储在服务器（如 GitHub）上的存储库并下载它
+​	`git add <filename(s)>` : 获取存储在服务器（如 GitHub）上的存储库并下载它
 
-`git commit -m "message"` : 拍摄存储库的快照并将其与有关更改的消息一起保存
+​	`git commit -m "message"` : 拍摄存储库的快照并将其与有关更改的消息一起保存
 
-`git commit -am <filename(s)> "message"` : 一站式添加文件和提交更改
+​	`git commit -am <filename(s)> "message"` : 一站式添加文件和提交更改
 
-`git status` : 打印存储库当前正在发生的事情
+​	`git status` : 打印存储库当前正在发生的事情
 
-`git push` : 将任何本地更改（提交）推送到远程服务器
+​	`git push` : 将任何本地更改（提交）推送到远程服务器
 
-`git pull` : 将任何远程更改从远程服务器拉到本地计算机
+​	`git pull` : 将任何远程更改从远程服务器拉到本地计算机
 
-`git log` : 打印所有提交的日志记录
+​	`git log` : 打印所有提交的日志记录
 
-`git reflog` : 打印对提交的所有不同引用的列表
+​	`git reflog` : 打印对提交的所有不同引用的列表
 
-`git reset --hard <commit>` : 将存储库重置为给定的提交
+​	`git reset --hard <commit>` : 将存储库重置为给定的提交
 
-`git reset --hard origin/master` : 将存储库重置为其原始状态
+​	`git reset --hard origin/master` : 将存储库重置为其原始状态
 
 ### 三、GitHub项目具体实现
 
-1.首先对要进行上传的组织仓库进行fork，将其fork到自己账户下的仓库。
+​	1.首先对要进行上传的组织仓库进行fork，将其fork到自己账户下的仓库。
 
-2.打开GitHub桌面版客户端，克隆自己的仓库到本地。
+​	2.打开GitHub桌面版客户端，克隆自己的仓库到本地。
 
-3.在本地做出修改后并进行commit，提交到自己账户中的仓库。
+​	3.在本地做出修改后并进行commit，提交到自己账户中的仓库。
 
-4.将更改好的分支push到GitHub上（因为目前仓库较简单，因此只有一个main分支）。
+​	4.将更改好的分支push到GitHub上（因为目前仓库较简单，因此只有一个main分支）。
 
-5.在GitHub上提交pull request请求，请求将自己的分支merge到要提交仓库的main分支上。
+​	5.在GitHub上提交pull request请求，请求将自己的分支merge到要提交仓库的main分支上。
 
-6.如果在merge时没有遇到冲突，就可以成功提交从而完成任务。
+​	6.如果在merge时没有遇到冲突，就可以成功提交从而完成任务。
 
-若遇到了冲突，就需要找到冲突的原因和文件，解决冲突，然后重新进行commit之间的分支，并重新push之间的分支。
+​	若遇到了冲突，就需要找到冲突的原因和文件，解决冲突，然后重新进行commit之间的分支，并重新push之间的分支。
 
 ### 四、遇到的问题
 
-1.GitHub连不上，我是选择查看GitHub520项目提供的IP地址和域名，对本地的hosts文件进行修改，从而连接到GitHub。
+​	1.GitHub连不上，我是选择查看GitHub520项目提供的IP地址和域名，对本地的hosts文件进行修改，从而连接到GitHub。
 
-2.GitHub客户端不能提交，提示不知道账户是谁。通过网上查询，需要在本地命令行中进行配置本地用户，分别输入username和email。
+​	2.GitHub客户端不能提交，提示不知道账户是谁。通过网上查询，需要在本地命令行中进行配置本地用户，分别输入username和email即可commit。
 
+### 五、课程感想
 
-
+​		本门课程主要介绍了Web程序设计的一些相关技术等，比如HTML,CSS,SQL等。我希望能够多做一些Web设计的项目，比如设计某个网页，或者学习一些技术可以不断的完善设计。希望能够了解更多的Web程序设计的相关知识，能够更好的进行设计。同时希望能够与物联网编程等相结合，从而更好的学习到一些先进的内容。🚀
